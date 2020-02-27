@@ -1,3 +1,14 @@
+Package: abjutils
+Version: 0.2.3
+Depends: R (>= 3.4)
+Imports: devtools, dplyr, furrr, future, glue, httr, magrittr,
+        progress, purrr, readr, rlang, rstudioapi, scales, stringi,
+        stringr, tibble, tidyr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: cb7fece761b7ebe1b392505b877d3a4b
+NeedsCompilation: no
+
 Package: A3
 Version: 1.0.0
 Depends: R (>= 2.15.0), xtable, pbapply
